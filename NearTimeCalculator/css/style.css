@@ -1,0 +1,148 @@
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+}
+
+img {
+  border-radius: 10px;
+  max-width: 18%;
+  
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    line-height: 88px;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+span {
+  position:absolute;
+  font-size: 30px;
+}
+
+body {
+  padding: 30px;
+  background-color: #E6E8F0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.container { 
+  background-color: #f3d6de;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.Container2 {
+  background-color: rgb(150, 41, 68);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ContainerLogo {
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+form {
+  display: inline-block;
+  padding: 20px;
+  color:rgb(150, 41, 68);
+}
+
+#price {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 50px;
+  color: #fff;
+}
+
+label {
+  font-size: 25px;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 5px;
+}
+
+input {
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 300px;
+  cursor: pointer;
+}
+
+input:hover, .select:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --select-border: #777;
+  --select-focus: #f3d6f3;
+}
+
+select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: none;
+  padding: 0 1em 0 5;
+  margin: 0;
+  width: 300px;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+  z-index: 1;
+  outline: none;
+}
+select::-ms-expand {
+  display: none;
+}
+
+.select {
+  display: inline-flex;
+  grid-template-areas: "select";
+  align-items: center;
+  position: relative;
+  min-width: 15ch;
+  max-width: 30ch;
+  border-radius: 10px;
+  padding: 0.25em 0.5em;
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #fff;
+}
+
+
